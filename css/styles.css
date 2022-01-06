@@ -9,20 +9,35 @@ table {
 }
 
 th {
+    
     font-weight: bolder;
-    width: 10%;
+    width: 300px;
     border: solid rgb(182, 177, 177) 1px;
     font-size: 24px;
     font-family: Cambria;
+    padding: 4px 0 4px 0;
+}
+
+#img {
+    width: 80px;
+    padding-left: 2px;
+    padding-right: 5px;
 }
 
 #img img {
+    
     width: 40px;
 }
 
 #temp {
-    width: 160px;
+    width: 220px;
 }
+#temp p {
+    font-weight: bolder;
+    font-size: 18px;
+    text-align: left;
+}
+
 
 #desc td {
     width: 10%;
