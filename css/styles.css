@@ -5,7 +5,7 @@
 }
 
 table {
-    width: 800px;
+    width: 1200px;
 }
 
 th {
@@ -14,6 +14,14 @@ th {
     border: solid rgb(182, 177, 177) 1px;
     font-size: 24px;
     font-family: Cambria;
+}
+
+#img img {
+    width: 40px;
+}
+
+#temp {
+    width: 160px;
 }
 
 #desc td {
@@ -25,7 +33,3 @@ th {
 }
 
 
-
-img {
-    width: 220px;
-}
