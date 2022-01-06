@@ -1,0 +1,31 @@
+* {
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 18px;
+}
+
+table {
+    width: 800px;
+}
+
+th {
+    font-weight: bolder;
+    width: 10%;
+    border: solid rgb(182, 177, 177) 1px;
+    font-size: 24px;
+    font-family: Cambria;
+}
+
+#desc td {
+    width: 10%;
+    border: solid rgb(182, 177, 177) 1px;
+    font-size: 24px;
+    text-align: left;
+    padding: 0px 20px;
+}
+
+
+
+img {
+    width: 220px;
+}
