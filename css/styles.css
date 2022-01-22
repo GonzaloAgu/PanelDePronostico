@@ -8,6 +8,10 @@ table {
     width: 1200px;
 }
 
+#tablaHorizontal {
+    width: 800px;
+}
+
 th {
     
     font-weight: bolder;
@@ -30,7 +34,7 @@ th {
 }
 
 #temp {
-    width: 220px;
+    width: 100px;
 }
 #temp p {
     font-weight: bolder;
