@@ -7,15 +7,17 @@
 #cuerpo {
     height: 120px;
     width: 800px;
+    margin-left: 100px;
 }
 
 #header {
-    height: 30px;
+    height: 28px;
     width: 240px;
     float: left;
     background-color: rgb(24, 31, 51);
     border: solid rgb(182, 177, 177) 1px;
     padding: 4px 0 4px 0;
+    border-radius: 8px 0px 0 0;
 }
 
 #header p {
@@ -27,14 +29,52 @@
     font-weight: bolder;
 }
 
+#tempMax {
+    height: 28px;
+    width: 60px;
+    float: left;
+    background-color: rgb(56, 12, 12);
+    border: solid rgb(182, 177, 177) 1px;
+    padding: 4px 0 4px 0;
+
+}
+#tempMax h1 {
+    margin: 3px 5px;
+    text-align: center;
+    background-color: rgb(56, 12, 12);
+    font-size: 18px;
+    font-family: Verdana;
+}
+
+#tempMin {
+    height: 28px;
+    width: 60px;
+    border-radius: 0 8px 0 0;
+    float: left;
+    background-color: rgb(24, 31, 51);
+    border: solid rgb(182, 177, 177) 1px;
+    padding: 4px 0 4px 0;
+
+}
+#tempMin h1 {
+    margin: 3px 5px;
+    text-align: center;
+    background-color: rgb(24, 31, 51);
+    font-size: 18px;
+    font-family: Verdana;
+}
+
+
 #desc {
     width: 100%;
     height: 80px;
     float: left;
-    border: solid rgb(182, 177, 177) 1px;
+    border: solid rgb(182, 177, 177) 2px;
     font-size: 24px;
+    font-family: Verdana;
     text-align: left;
-    
+    border-radius: 0 15px 0 0;
+    margin-bottom: 20px;
 }
 
 #icons {
@@ -62,7 +102,7 @@
     height: 50%;
     font-size: 18px;
     vertical-align: middle;
-    margin: 20px 0 10px 0;
+    margin: 5px;
 }
 
 #box {
@@ -73,14 +113,7 @@
     width: 100%;
 }
 
-#temp {
-    width: 120px;
-}
-#temp p {
-    font-weight: bolder;
-    font-size: 18px;
-    text-align: left;
-}
+
 
 
 
