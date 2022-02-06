@@ -113,7 +113,12 @@
     width: 100%;
 }
 
-
+footer {
+    float: left;
+    font-size: 11px;
+    margin-left: 100px;
+    width: 800px;
+}
 
 
 
