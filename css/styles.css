@@ -79,9 +79,11 @@
 
 #icons {
     height: 90%;
+    width: 100px;
     float: left;
     padding: 0 10px 0 10px ;
     border-right: dashed rgb(75, 74, 74) 1px;
+
 }
 
 
@@ -89,6 +91,12 @@
     float: left;
     width: 50px;
     margin: 15px 0 15px 0;
+}
+
+#img2 img{
+    float: left;
+    width: 70px;
+    margin: 4px 15px;
 }
 
 #info {
