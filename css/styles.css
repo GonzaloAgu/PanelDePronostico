@@ -12,7 +12,7 @@
 
 #header {
     height: 28px;
-    width: 240px;
+    width: 220px;
     float: left;
     background-color: rgb(24, 31, 51);
     border: solid rgb(182, 177, 177) 1px;
@@ -95,8 +95,8 @@
 
 #img2 img{
     float: left;
-    width: 70px;
-    margin: 4px 15px;
+    width: 65px;
+    margin: 6px 15px;
 }
 
 #info {
