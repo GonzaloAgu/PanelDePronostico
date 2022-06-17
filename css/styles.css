@@ -29,41 +29,6 @@
     font-weight: bolder;
 }
 
-#tempMax {
-    height: 28px;
-    width: 60px;
-    float: left;
-    background-color: rgb(56, 12, 12);
-    border: solid rgb(182, 177, 177) 1px;
-    padding: 4px 0 4px 0;
-
-}
-#tempMax h1 {
-    margin: 3px 5px;
-    text-align: center;
-    background-color: rgb(56, 12, 12);
-    font-size: 18px;
-    font-family: Verdana;
-}
-
-#tempMin {
-    height: 28px;
-    width: 60px;
-    border-radius: 0 8px 0 0;
-    float: left;
-    background-color: rgb(24, 31, 51);
-    border: solid rgb(182, 177, 177) 1px;
-    padding: 4px 0 4px 0;
-
-}
-#tempMin h1 {
-    margin: 3px 5px;
-    text-align: center;
-    background-color: rgb(24, 31, 51);
-    font-size: 18px;
-    font-family: Verdana;
-}
-
 
 #desc {
     width: 100%;
@@ -77,14 +42,6 @@
     margin-bottom: 20px;
 }
 
-#icons {
-    height: 90%;
-    width: 100px;
-    float: left;
-    padding: 0 10px 0 10px ;
-    border-right: dashed rgb(75, 74, 74) 1px;
-
-}
 
 
 #img {
@@ -99,19 +56,6 @@
     margin: 6px 15px;
 }
 
-#info {
-    width: 80%;
-    padding-left: 20px;
-    float: left;
-    font-size: 16px;
-}
-
-#info p {
-    height: 50%;
-    font-size: 18px;
-    vertical-align: middle;
-    margin: 5px;
-}
 
 #box {
     border: solid rgb(182, 177, 177) 1px;
@@ -128,7 +72,74 @@ footer {
     width: 800px;
 }
 
+/* -------------------- ACTUALIZACION MAYO 2022 ---------------------*/
+
+.info {
+    width: 80%;
+    padding-left: 20px;
+    float: left;
+    font-size: 16px;
+}
+
+.info p {
+    height: 50%;
+    font-size: 18px;
+    vertical-align: middle;
+    margin: 5px;
+}
+
+.icons {
+    height: 90%;
+    width: 100px;
+    float: left;
+    padding: 0 10px 0 10px ;
+    border-right: dashed rgb(75, 74, 74) 1px;
+
+}
+
+.tempMax {
+    height: 28px;
+    width: 60px;
+    float: left;
+    background-color: rgb(56, 12, 12);
+    border: solid rgb(182, 177, 177) 1px;
+    padding: 4px 0 4px 0;
+
+}
 
 
+.tempMax h1 {
+    margin: 3px 5px;
+    text-align: center;
+    background-color: rgb(56, 12, 12);
+    font-size: 18px;
+    font-family: Verdana;
+}
 
+.tempMax h1 {
+    margin: 3px 5px;
+    text-align: center;
+    background-color: rgb(56, 12, 12);
+    font-size: 18px;
+    font-family: Verdana;
+}
 
+.tempMin {
+    height: 28px;
+    width: 60px;
+    border-radius: 0 8px 0 0;
+    float: left;
+    background-color: rgb(24, 31, 51);
+    border: solid rgb(182, 177, 177) 1px;
+    padding: 4px 0 4px 0;
+}
+
+.tempMin h1 {
+    margin: 3px 5px;
+    text-align: center;
+    background-color: rgb(24, 31, 51);
+    font-size: 18px;
+    font-family: Verdana;
+}
+
+/* ----------------------------------------------------------------*/

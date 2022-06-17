@@ -11,30 +11,31 @@
 <body>
 
     <!--LUNES-->
-    <div id="cuerpo" style="margin-top: 50px;">
+    <div id="cuerpo" style="margin-top: 70px;">
     
         <div id="header">
             <p>LUNES</p>
         </div>
-        <div id="tempMax"><h1>
-
-            <script>inputW('MAXIMA LUNES')</script>ºC
-
+        <div class="tempMax" id="maxLUNES" onclick="tempChange('MAXIMA LUNES', 'maxLUNES')"><h1>
+            Max
         </h1></div>
-        <div id="tempMin"><h1>
-            
-            <script>inputW('MINIMA LUNES')</script>ºC
-        
+        <div class="tempMin" id="minLUNES" onclick="tempChange('MINIMA LUNES', 'minLUNES')"><h1>
+            Min
         </h1></div>
 
 
         <div id="desc">
-            <div id="icons">
-                <script>icon('lunes')</script>
+            <div class="icons" id="LUNESIcon" onclick="iconChange('LUNES', 'LUNESIcon');">
+                <div id="img2">
+                    <img src="D:/Documentos/PanoramaTemplate/icons/blank.png">
+                </div>
             </div>
     
-            <div id="info">
-                <script>desc('DESCRIPCION LUNES')</script>
+            <div class="info" id="LUNESInfo" onclick="descChange('LUNES', 'LUNESInfo')">
+                <p style="height: 16px;"></p>
+                <p>
+                 Añadir descripción.
+                </p>
             </div>
         </div>
     
@@ -46,27 +47,27 @@
         <div id="header">
             <p>MARTES</p>
         </div>
-        <div id="tempMax"><h1>
-            
-            <script>inputW('MAXIMA MARTES')</script>ºC
-        
+        <div class="tempMax" id="maxMARTES" onclick="tempChange('MAXIMA MARTES', 'maxMARTES')"><h1>
+            Max
         </h1></div>
-        <div id="tempMin"><h1>
-            
-            <script>inputW('MINIMA MARTES')</script>ºC
-        
+        <div class="tempMin" id="minMARTES" onclick="tempChange('MINIMA MARTES', 'minMARTES')"><h1>
+            Min
         </h1></div>
 
+
         <div id="desc">
-    
-            <div id="icons">
-                <script>icon('martes')</script>
+            <div class="icons" id="MARTESIcon" onclick="iconChange('MARTES', 'MARTESIcon');">
+                <div id="img2">
+                    <img src="D:/Documentos/PanoramaTemplate/icons/blank.png">
+                </div>
             </div>
     
-            <div id="info">
-                <script>desc('DESCRIPCION MARTES')</script>
+            <div class="info" id="MARTESInfo" onclick="descChange('MARTES', 'MARTESInfo')">
+                <p style="height: 16px;"></p>
+                <p>
+                 Añadir descripción.
+                </p>
             </div>
-    
         </div>
     
     </div>
@@ -78,27 +79,27 @@
         <div id="header">
             <p>MIÉRCOLES</p>
         </div>
-        <div id="tempMax"><h1>
-            
-            <script>inputW('MAXIMA MIERCOLES')</script>ºC
-        
+        <div class="tempMax" id="maxMIERCOLES" onclick="tempChange('MAXIMA MIERCOLES', 'maxMIERCOLES')"><h1>
+            Max
         </h1></div>
-        <div id="tempMin"><h1>
-            
-            <script>inputW('MINIMA MIERCOLES')</script>ºC
-        
+        <div class="tempMin" id="minMIERCOLES" onclick="tempChange('MINIMA MIERCOLES', 'minMIERCOLES')"><h1>
+            Min
         </h1></div>
-    
+
+
         <div id="desc">
-    
-            <div id="icons">
-                <script>icon('miercoles')</script>
+            <div class="icons" id="MIERCOLESIcon" onclick="iconChange('MIERCOLES', 'MIERCOLESIcon');">
+                <div id="img2">
+                    <img src="D:/Documentos/PanoramaTemplate/icons/blank.png">
+                </div>
             </div>
     
-            <div id="info">
-                <script>desc('DESCRIPCION MIERCOLES')</script>
+            <div class="info" id="MIERCOLESInfo" onclick="descChange('MIERCOLES', 'MIERCOLESInfo')">
+                <p style="height: 16px;"></p>
+                <p>
+                 Añadir descripción.
+                </p>
             </div>
-    
         </div>
     
     </div>
@@ -110,28 +111,29 @@
         <div id="header">
             <p>JUEVES</p>
         </div>
-        <div id="tempMax"><h1>
-            
-            <script>inputW('MAXIMA JUEVES')</script>ºC
-        
+        <div class="tempMax" id="maxJUEVES" onclick="tempChange('MAXIMA JUEVES', 'maxJUEVES')"><h1>
+            Max
         </h1></div>
-        <div id="tempMin"><h1>
-            
-            <script>inputW('MINIMA JUEVES')</script>ºC
-        
+        <div class="tempMin" id="minJUEVES" onclick="tempChange('MINIMA JUEVES', 'minJUEVES')"><h1>
+            Min
         </h1></div>
-    
+
+
         <div id="desc">
-    
-            <div id="icons">
-                <script>icon('jueves')</script>
+            <div class="icons" id="JUEVESIcon" onclick="iconChange('JUEVES', 'JUEVESIcon');">
+                <div id="img2">
+                    <img src="D:/Documentos/PanoramaTemplate/icons/blank.png">
+                </div>
             </div>
     
-            <div id="info">
-                <script>desc('DESCRIPCION JUEVES')</script>
+            <div class="info" id="JUEVESInfo" onclick="descChange('JUEVES', 'JUEVESInfo')">
+                <p style="height: 16px;"></p>
+                <p>
+                 Añadir descripción.
+                </p>
             </div>
-    
         </div>
+    
     </div>
 <footer>Las temperaturas máximas y minimas son aproximadas y se refieren a la temperatura más alta de la tarde y la mas baja de la madrugada/mañana, respectivamente. No descarta que se rompan esos
     limites de temperatura fuera del horario en cuestión.

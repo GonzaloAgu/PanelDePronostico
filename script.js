@@ -1,55 +1,50 @@
 
-const desc = message => {
+const descChange = (message, elemento) => {
 
-    let input = prompt(message);
+    let input = prompt('DESCRIPCION ' + message.toUpperCase());
 
     // Verificación de input
-    while(input.length > 210){
-        const copia = input;
-        input = prompt('ERROR. Descripción demasiado larga.\n\n' + copia + '\n\n' + message)
+    while(input.length > 210 || input.length == ''){
+        input = prompt('ERROR. Descripción no válida.\n\n' + elemento)
     }
     
     // Impresión de mensaje segun longitud
     if(input.length < 70){ 
-        document.write(
-        `<p style="height: 16px;"></p>
+        result = `<p style="height: 16px;"></p>
         <p>
             ${input}
         </p>`
-    )}
+    }
     else if(input.length >= 70 && input.length < 140){
-        document.write(
-            `<p style="height: 8px;"></p>
+        result = `<p style="height: 8px;"></p>
             <p>
                 ${input}
             </p>`
-        )
     }
     else{
-        document.write(
-            `<p>
+        result = `<p>
                 ${input}
             </p>`
-        )
     }
-
+    document.getElementById(elemento).innerHTML = result;
 }
 
-const icon = dia => {
+const iconChange = (dia, elemento) => {
     
+    let result = '';
+
     icon1 = prompt('ICONO 1 ' + dia.toUpperCase());
     icon2 = prompt('ICONO 2 ' + dia.toUpperCase());
 
     if(!icon2){
-        const result = `
+        result = `
             <div id="img2">
                 <img src="D:/Documentos/PanoramaTemplate/icons/${icon1}.png">
             </div>
             `;
-        document.write(result);
     }
     else{
-        const result = `
+        result = `
             <div id="img">
                 <img src="D:/Documentos/PanoramaTemplate/icons/${icon1}.png">
             </div>
@@ -57,13 +52,26 @@ const icon = dia => {
                 <img src="D:/Documentos/PanoramaTemplate/icons/${icon2}.png">
             </div>
             `;
-        document.write(result);
     }
+    document.getElementById(elemento).innerHTML = result;
 }
 
-const inputW = message => {
+
+const inputChange = (message, elemento) => {
+    
     let input = prompt(message);
-
-    document.write(input);
-    if(input.length == 1){console.log('xd')};
+    
+    document.getElementById(elemento).innerHTML = input;
 }
+
+const tempChange = (message, elemento) => {
+    let input = prompt(message);
+    document.getElementById(elemento).innerHTML = `<h1>
+            
+    ${input}ºC
+
+</h1>`
+}
+
+
+
