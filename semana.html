@@ -9,9 +9,16 @@
     <title>Panorama de la semana</title>
 </head>
 <body>
+    <div class="opciones">
+        <div id="op1" onclick="nuevoDia('Ar')">AGREGAR DIA ARRIBA</div>
+        <div id="op2" onclick="nuevoDia('Ab')">AGREGAR DIA ABAJO</div>
+    </div>
 
+    <div id="nuevoAr2"></div>
+    <div id="nuevoAr1"></div>
+    <div id="nuevoAr0"></div>
     <!--LUNES-->
-    <div id="cuerpo" style="margin-top: 70px;">
+    <div id="cuerpo">
     
         <div id="header">
             <p>LUNES</p>
@@ -133,11 +140,15 @@
                 </p>
             </div>
         </div>
-    
     </div>
-<footer>Las temperaturas máximas y minimas son aproximadas y se refieren a la temperatura más alta de la tarde y la mas baja de la madrugada/mañana, respectivamente. No descarta que se rompan esos
-    limites de temperatura fuera del horario en cuestión.
-</footer>
+    
+    <div id="nuevoAb0"></div>
+    <div id="nuevoAb1"></div>
+    <div id="nuevoAb2"></div>
+
+    <footer>Las temperaturas máximas y minimas son aproximadas y se refieren a la temperatura más alta de la tarde y la mas baja de la madrugada/mañana, respectivamente. No descarta que se rompan esos
+        limites de temperatura fuera del horario en cuestión.
+    </footer>
 
 </body>
 </html>

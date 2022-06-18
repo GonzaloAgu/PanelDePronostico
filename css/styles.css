@@ -142,4 +142,27 @@ footer {
     font-family: Verdana;
 }
 
+.opciones div{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-left: 100%;
+    padding: 3px 8px;
+    height: 30px;
+    width: 140px;
+    background-color: rgb(21, 31, 56);
+    border: solid rgb(182, 177, 177) 2px;
+    font-size: 12px;
+    font-family: Verdana;
+    text-align: left;
+    line-height: 30px;
+    user-select: none;
+}
+
+#op2{
+    top: 38px;
+}
+.opciones div:hover{
+    background-color: rgb(9, 13, 20);
+}
 /* ----------------------------------------------------------------*/
