@@ -29,6 +29,8 @@ const descChange = (message, elemento) => {
     document.getElementById(elemento).innerHTML = result;
 }
 
+/*---------------------------------------------------------------------*/
+
 const iconChange = (dia, elemento) => {
     
     let result = '';
@@ -56,6 +58,7 @@ const iconChange = (dia, elemento) => {
     document.getElementById(elemento).innerHTML = result;
 }
 
+/*---------------------------------------------------------------------*/
 
 const inputChange = (message, elemento) => {
     
@@ -73,8 +76,11 @@ const tempChange = (message, elemento) => {
 </h1>`
 }
 
+/*---------------------------------------------------------------------*/
+
 let contSu = 0;  //Contador de nuevos elementos superiores
 let contIn = 0;  //Contador de nuevos elementos inferiores
+
 const nuevoDia = pos => {
     dia = prompt("Ingrese día a agregar");
     /*Elijo contador segun input*/
@@ -90,8 +96,9 @@ const nuevoDia = pos => {
     }
 
     const diaBreve = dia.slice(0, 3);
+
     const result = `<!--${dia.toUpperCase()}-->
-    <div id="cuerpo">
+    <div class="cuerpo">
     
         <div id="header">
             <p>${dia.toUpperCase()}</p>
@@ -121,6 +128,19 @@ const nuevoDia = pos => {
     
     </div>`;
 
-    document.getElementById(('nuevo' + pos + i)).innerHTML = result;
-    
+    if(pos != '1') document.getElementById(('nuevo' + pos + i)).innerHTML = result;
+    return result;
+}
+
+/*---------------------------------------------------------------------*/
+
+
+const añadirDia = () => {
+    //Creo nodo
+    const elementoDia = document.createElement('div');
+    elementoDia.innerHTML = nuevoDia('1');
+    //Selecciono elemento padre
+    const elementoPadre = document.querySelector('.dias');
+    //Agrego nodo
+    elementoPadre.appendChild(elementoDia);
 }

@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="script.js"></script>
-    <title>Panorama de la semana</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../script.js"></script>
+    <title>Panorama del fin de semana</title>
 </head>
 <body>
     <div class="opciones">
-        <div id="op1" onclick="nuevoDia('Ar')">AGREGAR DIA ARRIBA</div>
-        <div id="op2" onclick="nuevoDia('Ab')">AGREGAR DIA ABAJO</div>
+        <div><a href="../index.html" title='Menú principal'><img src="../icons/home.png"></a></div>
+        <div id="op1" onclick="nuevoDia('Ar')" title='Añadir nuevo día por encima'><img src="../icons/up.png"></div>
+        <div id="op2" onclick="nuevoDia('Ab')" title='Añadir nuevo día por debajo'><img src="../icons/down.png"></div>
     </div>
 
     <div id="nuevoAr2"></div>
     <div id="nuevoAr1"></div>
     <div id="nuevoAr0"></div>
     <!--LUNES-->
-    <div id="cuerpo">
+    <div class="cuerpo">
     
         <div id="header">
             <p>LUNES</p>
@@ -49,7 +50,7 @@
     </div>
 
     <!--MARTES-->
-    <div id="cuerpo">
+    <div class="cuerpo">
     
         <div id="header">
             <p>MARTES</p>
@@ -81,7 +82,7 @@
 
     <!--MIÉRCOLES-->
 
-    <div id="cuerpo">
+    <div class="cuerpo">
     
         <div id="header">
             <p>MIÉRCOLES</p>
@@ -113,7 +114,7 @@
 
     <!--JUEVES-->
 
-    <div id="cuerpo">
+    <div class="cuerpo">
     
         <div id="header">
             <p>JUEVES</p>

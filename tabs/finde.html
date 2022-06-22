@@ -4,14 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../script.js"></script>
     <title>Panorama del fin de semana</title>
 </head>
 <body>
+    <div class="opciones">
+        <div><a href="../index.html" title='Menú principal'><img src="../icons/home.png"></a></div>
+        <div id="op1" onclick="nuevoDia('Ar')" title='Añadir nuevo día por encima'><img src="../icons/up.png"></div>
+        <div id="op2" onclick="nuevoDia('Ab')" title='Añadir nuevo día por debajo'><img src="../icons/down.png"></div>
+    </div>
 
+    <div id="nuevoAr2"></div>
+    <div id="nuevoAr1"></div>
+    <div id="nuevoAr0"></div>
     <!--VIERNES-->
-    <div id="cuerpo" style="margin-top: 70px;">
+    <div class="cuerpo">
     
         <div id="header">
             <p>VIERNES</p>
@@ -42,7 +50,7 @@
     </div>
 
     <!--SÁBADO-->
-    <div id="cuerpo">
+    <div class="cuerpo">
     
         <div id="header">
             <p>SÁBADO</p>
@@ -75,7 +83,7 @@
 
     <!--DOMINGO-->
 
-    <div id="cuerpo">
+    <div class="cuerpo">
     
         <div id="header">
             <p>DOMINGO</p>
@@ -105,9 +113,13 @@
         </div>
     
     </div>
+    <div id="nuevoAb0"></div>
+    <div id="nuevoAb1"></div>
+    <div id="nuevoAb2"></div>
     <footer>Las temperaturas máximas y minimas son aproximadas y se refieren a la temperatura más alta de la tarde y la mas baja de la madrugada/mañana, respectivamente. No descarta que se rompan esos
         limites de temperatura fuera del horario en cuestión.
     </footer>
+    
     
 </body>
 </html>
